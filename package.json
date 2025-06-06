@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rahulcse129.github.io/latest_portfolio",
-
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
