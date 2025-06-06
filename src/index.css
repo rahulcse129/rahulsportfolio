@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-patrick text-ink bg-cream bg-paper-texture;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .doodle-border {
+    @apply border-3 border-dashed border-pencil rounded-2xl;
+  }
+
+  .doodle-card {
+    @apply bg-paper doodle-border p-6 shadow-doodle transition-all hover:scale-105 hover:shadow-lg;
+  }
+
+  .polaroid {
+    @apply bg-white p-3 shadow-polaroid rotate-1 transition-all;
+  }
+
+  .polaroid:hover {
+    @apply rotate-0 scale-105 z-10;
+  }
+
+  .doodle-btn {
+    @apply bg-paper doodle-border px-4 py-2 font-gloria text-ink-dark shadow-doodle 
+           transition-all hover:scale-105 active:translate-y-1 active:shadow-none;
+  }
+
+  .nav-link {
+    @apply relative font-gloria text-ink-dark hover:text-ink transition-all py-2;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-0 h-1 bg-highlight-yellow transition-all duration-300;
+  }
+
+  .nav-link:hover::after, .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .nav-link.active {
+    @apply text-ink;
+  }
+
+  .section-title {
+    @apply font-gloria text-3xl sm:text-4xl lg:text-5xl text-ink-dark mb-8 inline-block;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="25%" y="80%" rx="2" ry="2" fill="%23FEF08A" /></svg>');
+    background-repeat: no-repeat;
+  }
+}
