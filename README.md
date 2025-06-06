@@ -114,7 +114,7 @@ To deploy the portfolio:
 Feel free to reach out:
 
 * **Email**: [rahulcse129@gmail.com](rahulcse129@gmail.com)
-* **LinkedIn**: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/rahul-pal-b28b9727b/)
+* **LinkedIn**: [Rahul Pal](https://www.linkedin.com/in/rahul-pal-b28b9727b/)
 
 ## ⭐️ Show Your Support
 
