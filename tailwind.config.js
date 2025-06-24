@@ -32,7 +32,9 @@ export default {
         doodle: '4px 4px 0px rgba(0, 0, 0, 0.1)',
         polaroid: '0 1px 2px rgba(0, 0, 0, 0.1), 0 12px 24px -12px rgba(0, 0, 0, 0.5)',
       },
-      
+      backgroundImage: {
+        'paper-texture': "url('./assets/textures/paper.jpg')",
+      },
       borderWidth: {
         '3': '3px',
       },

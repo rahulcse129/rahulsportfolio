@@ -8,6 +8,13 @@
     overflow-x: hidden;
   }
 }
+@layer utilities {
+  .bg-paper-texture {
+    background-image: url('./assets/textures/paper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 
 @layer components {
   .doodle-border {
