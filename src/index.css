@@ -4,18 +4,10 @@
 
 @layer base {
   body {
-    @apply font-patrick text-ink bg-cream bg-paper-texture;
+    @apply font-patrick text-ink bg-cream ;
     overflow-x: hidden;
   }
 }
-@layer utilities {
-  .bg-paper-texture {
-    background-image: url('./assets/textures/paper.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
 @layer components {
   .doodle-border {
     @apply border-3 border-dashed border-pencil rounded-2xl;
