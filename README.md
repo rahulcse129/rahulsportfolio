@@ -6,7 +6,7 @@ Certainly! Here's a comprehensive `README.md` section for your GitHub repository
 
 Welcome to my personal portfolio website, showcasing my projects, skills, and experiences. Built with modern web technologies, this site provides an interactive and responsive user experience.
 
-**Link**: [rahulsportfolio129.netlify.app](rahulsportfolio129.netlify.app)
+**Link**: [https://rahulsportfolio-iota.vercel.app/](https://rahulsportfolio-iota.vercel.app/)
          Open it on New Page Please!!
 ## 🚀 Features
 
